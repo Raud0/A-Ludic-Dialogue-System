@@ -1,0 +1,48 @@
+body, html {
+    max-width: 800px;
+    margin: auto;
+    background-color: navajowhite;
+}
+
+.wordly {
+    font-family: Garamond, Georgia, serif;
+    font-size: 16px;
+    background-color: lemonchiffon;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 3px;
+    color: black;
+}
+.wordly::first-line {
+    line-height: 0em;
+}
+
+
+.blurb{
+    font-family: Garamond, Georgia, serif;
+    font-size: 20px;
+}
+.blurb::first-line {
+    line-height: 1em;
+}
+
+#blurbtitle {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    line-height: 0.29;
+}
+
+#title {
+    color: black;
+}
+
+#links {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#divImage{
+    width: 100%;
+}
