@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset=UTF-8>
-    <script src="sctipts.js" rel="script"></script>
+    <script src="scripts.js" rel="script"></script>
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <title>LUDIC DIALOGUE</title>
     <meta name="description" content ="The bachelor thesis about ludic dialogue systems.">
@@ -30,6 +30,17 @@
         <img id="divImage" src="12angries.png" >
         <h2 id="title">How to make a game out of <i>Twelve Angry Men</i> (1957)?</h2>
         <p>
+            A dialogue cannot truly feel alive to the player if they are always stuck making a limited amount of choices.
+            Neither can dialogue be challenging, if the player is always in control of the direction of the conversation.
+            Instead of the clean approach to dialogue one finds in a play's script, we want to utilize the messiness of real converastions,
+            where both agents have to somehow take turns trying to take the conversation in some direction.
+            Misunderstandings and interruptions are both common.<br>
+            <br>
+            Instead of a tree-like structure, we create a dialogue space, which is oriented around topics, something the player and the AI talk about.
+            Each topic gets some amount of attention from them and has a measure for progression. The former is captured by the focus space, the latter depth space.
+        </p>
+        <h2 id="title"><i>Last Call (An Ante-Nuclear Role-Playing Game)</i></h2>
+        <p>
             To test out the freshly devised design of LUDIC DIALOGUE, it was necessary
             to create an experience that could demonstrate the viability of the system
             as a medium for not just art but for gaming. As a system, there were very few
@@ -38,21 +49,24 @@
             The <i>LAST CALL</i> was made knowing the following:
             <ul>
                 <li>It would have the ludic dialogue system as its <b>core element</b></li>
-                <li>As such it would make use out of its <b>freeform conversational structure</b>></li>
+                <li>As such it would make use out of its <b>freeform conversational structure</b></li>
                 <li>And would <b>last for 15 minutes</b>, to show how dialogue could take place in real-time</li>
                 <li>Because games are about <b>conflict</b>, the dialogue would be about conflict</li>
                 <li>The conflict of trying to convince a disobeying officer to launch nukes at the soviet</li>
                 <li>On the way, the conversation could go in many directions, some topics being like <b>conversational landmines</b></li>
                 <li>As such, the game way built on the idea of a <b>deep interpersonal relationship</b> that would form between two people before the end of the world</li>
             </ul>
+
+            Did this succeed? Players felt like the experience was interactive and engaging, and everyone recognized it as a game.
+            Many also felt that the conversation itself was unnatural. You can see for yourself by following the link below.
         </p>
     </div>
-
     <div id="links" class="wordly">
-        <h1><i>LAST CALL</i> LINKROT</h1>
+        <h1>LINKROT</h1>
         <p>
             <a href="https://github.com/Raud0/Last-Call">VISIT THE REPO</a><br>
             <a href="https://c0nt.itch.io/last-call">PLAY THE GAME</a><br>
+            <a href="https://comserv.cs.ut.ee/ati_thesis/datasheet.php?id=71638&year=2021">READ THE PAPER</a><br>
         </p>
     </div>
 </body>
